@@ -13,6 +13,8 @@ It was created out of necessity and is not pretending to be a fully featured Mai
 
 ## Installation ##
 
+Copy the files to `/protected/extensions/mailchimp` folder (or any other folder, but you'll need to update some paths).
+
 To set up Mailchimp API v1.3 integration just add this to your config file:
 
     return array(
@@ -32,6 +34,7 @@ To set up Mailchimp API v1.3 integration just add this to your config file:
                 'devMode' => false
             ),
             // (...)
+        )
     );
 	
 It's the same situation with Mailchimp API v2.0 integration, you only need to change the class name:
@@ -53,6 +56,7 @@ It's the same situation with Mailchimp API v2.0 integration, you only need to ch
                 'devMode' => false
             ),
             // (...)
+        )
     ); 
 
 ## Usage ##
