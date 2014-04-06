@@ -1,5 +1,5 @@
 <?php
-require_once 'base' . DIRECTORY_SEPARATOR . 'MailChimpBase.php');
+require_once dirname(__FILE__) . DIRECTORY_SEPARATOR . 'base' . DIRECTORY_SEPARATOR . 'MailChimpBase.php';
 
 /**
  * Mailchimp API integration (version 2.0)

@@ -1,5 +1,5 @@
 <?php
-require_once 'base' . DIRECTORY_SEPARATOR . 'MCAPI.class.php';
+require_once dirname(__FILE__) . DIRECTORY_SEPARATOR . 'base' . DIRECTORY_SEPARATOR . 'MCAPI.class.php';
 
 /**
  * MailChimp API integration (version 1.3)
