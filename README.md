@@ -89,6 +89,8 @@ Then use this to track the actual order:
         )
     ));
 
+Dev mode allows to use the extension in read-only mode.
+
 ## Available functions ##
 
 Both integrations (with API v1.3 and API v2.0) have the same set of functions:
